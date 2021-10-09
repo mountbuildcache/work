@@ -1,0 +1,20 @@
+
+load ../task
+  hook mine task
+  hook mill task
+load ./state
+  hook mine state
+  hook mill state
+
+hatch field
+
+mine form
+  mine name, name form
+    mine name
+      take name
+    mine list
+      mine head
+        mine form, form state
+          take state
+        mine form, form force
+          take force

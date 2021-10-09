@@ -1,0 +1,56 @@
+
+fetch @mountbuild/drive/hatch/latch
+  catch find latch
+  catch catch latch
+fetch @mountbuild/drive/hatch/mount
+  catch find mount
+  catch catch mount
+
+find mesh
+  find term, term mesh
+    find term
+      throw term
+    find list
+      find form, form latch
+    slab find-mesh
+
+find check
+  find term, term check
+    find term
+      throw term
+    slab find-mesh
+
+find drive
+  find term, term drive
+    find trace
+      throw trace
+    find list
+      find form, form drive-start
+        throw start
+      slab find-mesh
+
+find drive-start
+  find term, term start
+    find term
+      throw term
+    find term, term term
+      find term
+        throw start
+
+find slab
+  find term, term mesh
+    find term
+      throw term
+    find list
+      find form, form mount
+    find list
+      find form, form watch
+    slab find-mesh
+
+find watch
+  find term, term watch
+    find term
+      throw term
+    find list
+      find form, form cause
+        throw cause

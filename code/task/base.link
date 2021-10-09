@@ -1,0 +1,23 @@
+
+fetch .
+  fetch /start
+    catch match start
+    catch catch start
+
+fetch @mountbuild/drive/hatch/cause
+  catch match cause
+  catch catch cause
+
+match force
+  match brand, brand force
+    match brand
+      throw brand
+  match chain
+    match field, field start
+      throw start
+  match chain
+    match field, field cause
+      throw cause
+  match chain
+    match field, field force
+      throw force

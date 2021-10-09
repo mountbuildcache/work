@@ -1,0 +1,84 @@
+
+mill build
+
+mill hook
+  mill brand
+    save brand
+  mill bound, form bound
+    save bound
+  mill start, form start
+    line start
+  mill hitch
+    mill throw, form throw
+      save call
+    mill save, form save
+      save call
+    mill line, form line
+      save call
+    mill raise, form raise
+      save call
+  mill call, form call
+    line call
+  make hook
+    mount brand, share brand
+    mount start, share start
+    mount latch, share latch
+    mount call, share call
+    throw build
+
+mill latch
+  mill brand
+
+mill throw
+
+mill save
+
+mill call
+  mill name
+    save name
+  mill mount, form mount
+    line mount
+  mill mill, form mill
+    line mill
+  mill state, form state
+    save state
+  mill save, form save
+    save state
+  mill save, form still
+    save state
+  mill line, form line
+    save state
+  mill throw, form throw
+    save state
+  build call
+    mount brand, share brand
+    mount mount, share mount
+    mount mill, share mill
+    mount state, share state
+    throw build
+
+mill state
+  mill save
+    mill trace
+      save trace
+    build save
+      mount trace, share trace
+      raise build
+  mill line
+    mill trace
+      save trace
+    build line
+      mount trace, share trace
+      raise build
+  mill throw
+    mill trace
+      save trace
+    build throw
+      mount trace, share trace
+      raise build
+  mill raise
+    mill trace
+      save trace
+    build raise
+      mount trace, share trace
+      raise build

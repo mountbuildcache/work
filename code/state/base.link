@@ -1,0 +1,31 @@
+
+fetch ../../field
+  fetch /field/state
+    catch field state
+
+match bound
+  match crown
+    match field, field state
+    match field, field store
+    match field, field still
+
+match state
+  match brand, brand state
+    match write, write trace
+      throw trace
+    match field, field build
+    throw state
+
+match store
+  match brand, brand store
+    match write, write trace
+      throw trace
+    match field, field build
+    throw store
+
+match still
+  match brand, brand still
+    match write, write trace
+      throw trace
+    match field, field build
+    throw still
