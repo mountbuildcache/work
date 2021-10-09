@@ -1,10 +1,10 @@
 
-fetch @bindbuild/drive/hatch/bind
-  catch mine bind
-  catch catch bind
-fetch @bindbuild/drive/hatch/hitch
-  catch mine hitch
-  catch catch hitch
+load <@drumwork/drive/hatch/bind>
+  hook mine bind
+  hook hook bind
+load <@drumwork/drive/hatch/hitch>
+  hook mine hitch
+  hook hook hitch
 
 mine call
   mine name, name call
